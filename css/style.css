@@ -1,0 +1,549 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+.no-margin{
+	margin:0!important;}
+a{
+	color:#809a00;}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+
+}
+
+.navbar-brand{
+	height:auto;
+	padding:0;
+	 margin-left: 0!important;
+}
+.navbar-brand img {max-width:155px;}
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+.nav-first {
+  padding-left: 15px;
+}
+.navbar-nav.nav-first > li > a {
+  padding: 7px 10px;
+}
+.navbar-nav.nav-first > li > a {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+}
+.navbar-nav.nav-first > li > a:hover{
+	color:#809a00;
+	}
+.navbar-nav > li > a {
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+    padding-right: 8px;
+	  padding-left: 8px;
+}
+
+.navbar-form{
+margin-bottom: 4px;
+    margin-top: 4px;
+}
+.navbar-form .form-control {
+  background-color: transparent;
+  background-image: url("../images/search-icon.png");
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 12px auto;
+  border-color: #777777;
+  font-size: 11px;
+  height: 25px;
+  padding: 2px 5px 2px 30px;
+}
+.language-select {
+  float: right;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.language-select span{
+	display:inline-block;
+	font-size:12px;
+	vertical-align:top;
+	color:#777;
+	}
+.us-flag{
+	background-image:url(../images/sprite.png);
+	background-repeat:no-repeat;
+	background-position: 0 -195px;
+    height: 15px;
+    width: 21px;
+}
+.navbar-default .navbar-nav.main-menu > li > a {
+  background: #e5e5e5 none repeat scroll 0 0;
+  color: #777;
+}
+.navbar-default .navbar-nav.main-menu .book-btn a {
+	font-size: 18px;
+	text-align: center;
+	border-left: 0px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 10px 10px 9px;
+	background-color: #6d8301;
+	background-image: -moz-linear-gradient(top, #9eb52c, #6d8301);
+	background-image: -ms-linear-gradient(top, #9eb52c, #6d8301);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9eb52c), to(#6d8301));
+	background-image: -webkit-linear-gradient(top, #9eb52c, #6d8301);
+	background-image: -o-linear-gradient(top, #9eb52c, #6d8301);
+	background-image: linear-gradient(top, #9eb52c, #6d8301);
+	background-repeat: repeat-x;
+filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FF9EB52C', endColorstr='#FF6D8301');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9EB52C', endColorstr='#FF6D8301')"
+}
+
+.main-menu .book-btn a:hover {
+	background-color: #9eb52c;
+	background-image: -moz-linear-gradient(top, #6d8301, #9eb52c);
+	background-image: -ms-linear-gradient(top, #6d8301, #9eb52c);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6d8301), to(#9eb52c));
+	background-image: -webkit-linear-gradient(top, #6d8301, #9eb52c);
+	background-image: -o-linear-gradient(top, #6d8301, #9eb52c);
+	background-image: linear-gradient(top, #6d8301, #9eb52c);
+	background-repeat: repeat-x;
+filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FF6D8301', endColorstr='#FF9EB52C');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF6D8301', endColorstr='#FF9EB52C')"
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+#myCarousel {
+  background: #303030 none repeat scroll 0 0;
+  padding-top: 60px;
+  text-align: center;
+}
+#myCarousel img{
+	margin:0 auto;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.media.web_intro_left {
+  margin-top: 45px;
+}
+.introLeftImg {
+  border: 3px solid #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.web_intro_left h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+a#introInclusions {
+  background: #373737 none repeat scroll 0 0;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  display: block;
+  font-size: 17px;
+  line-height: 25px;
+  margin: 20px 0 0;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 150ms ease-in 0s;
+  width: 100%;
+}
+a#introInclusions span {
+  color: #c7e700;
+  display: block;
+  font-size: 25px;
+  letter-spacing: -2px;
+  line-height: 25px;
+  margin: 0;
+}
+#introInclusions .glyphicon {
+  background: #535353 none repeat scroll 0 0;
+  border: 1px solid #373737;
+  border-radius: 4px;
+  line-height: 68px;
+  padding: 0 10px;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 0;
+  width: 36px;
+}
+.social-link > a {
+  border-left: 1px solid #ccc;
+  color: #b6b6b6;
+  font-size: 22px;
+  padding: 0 7px;
+}
+.social-link {
+  float: right;
+  margin-top: 30px;
+}
+.form-wrap {
+	background: -moz-linear-gradient(top, rgba(193,193,193,0.15) 0%, rgba(43,43,43,0.15) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(193,193,193,0.15)), color-stop(100%, rgba(43,43,43,0.15)));
+	background: -webkit-linear-gradient(top, rgba(193,193,193,0.15) 0%, rgba(43,43,43,0.15) 100%);
+	background: -o-linear-gradient(top, rgba(193,193,193,0.15) 0%, rgba(43,43,43,0.15) 100%);
+	background: -ms-linear-gradient(top, rgba(193,193,193,0.15) 0%, rgba(43,43,43,0.15) 100%);
+	background: linear-gradient(to bottom, rgba(193,193,193,0.15) 0%, rgba(43,43,43,0.15) 100%);
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#26c1c1c1', endColorstr='#262b2b2b', GradientType=0 );
+*filter:none;
+*background:#d9d9d9;
+	width: 100%;
+	position: relative;
+	padding: 0 25px 18px
+}
+
+.form-wrap>a {
+	display: block;
+	text-align: center
+}
+.form-wrap h4 {
+  color: #809a00;
+  font-size: 19px;
+  font-weight:23px;
+  margin: 20px -2px 0 13px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+}
+.form-wrap h5 {
+  color: #373737;
+  display: inline-block;
+  font-size: 106px;
+  letter-spacing: -3px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.form-wrap h4 span {
+  display: block;
+  font-size: 17px;
+  line-height: 19px;
+  margin: -5px 0 0;
+}
+.form-wrap h5 sup {
+  bottom: 35px;
+  font-size: 48px;
+  vertical-align: middle;
+}
+.select-wrap select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+ appearance: none;
+}
+.form-control{
+	padding:5px;}
+.form-wrap .form-group {
+  margin-bottom: 5px;
+}
+.choose-date{
+	position:relative}
+	
+	.choose-date > span {
+  left:10px;
+  position: absolute;
+  top:7px;
+}
+.choose-date .form-control{
+	padding-left:70px;
+	}
+.choose-date::after {
+  background: rgba(0, 0, 0, 0) url("../images/icon-calendar.png") no-repeat scroll left top;
+  content: "";
+  display: inline-block;
+  height: 20px;
+  position: absolute;
+  right: 6px;
+  top: 7px;
+  vertical-align: top;
+  width: 19px;
+}
+.form-wrap button.btn-gray {
+  background-color: #979797;
+  background-image: -moz-linear-gradient(center top , #979797, #979797);
+  background-repeat: repeat-x;
+  border-radius: 0 0 3px 3px;
+  bottom: -38px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: block;
+  font-size: 21px;
+  height: 35px;
+  left: 0px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  vertical-align: top;
+  width: 100%;
+}
+.bookNSave {
+  border: 1px solid #7a7a7a;
+  bottom: -75px;
+  color: #383838;
+  font-size: 12px;
+  font-weight: bold;
+  left: 30px;
+  line-height: 25px;
+  position: absolute;
+  width: 255px;
+}
+.bookNSave span {
+  color: #d62415;
+}
+.discount-message {
+  background: #d62415 none repeat scroll 0 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  height: 92px;
+  left: 50%;
+  margin-left: 40px;
+  position: relative;
+  text-align: center;
+  top: -92px;
+  width: 8.5%;
+  z-index: 30;
+}
+/*
+.discount-message {
+    position: relative;
+    left: 50%;
+    top: 526px;
+    z-index: 30;
+    display: inline-block;
+    width: 110px;
+    height: 92px;
+    margin-left: 56px;
+    text-align: center;
+    background: #d62415;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=135, Strength=2);
+}
+*/
+.discount-message .message {
+  color: #ffffff;
+  font: bold 13px/24px Arial,Helvetica,sans-serif;
+  text-transform: uppercase;
+  margin: 0 auto;
+  height: 24px;
+  background: #c31516;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.discount-message .value {
+  color: #ffffff;
+  font: 25px/20px Arial,Helvetica,sans-serif;
+  margin: 0 auto;
+  position: relative;
+  left: 5px;
+  top: 2px;
+}
+
+.discount-message .value span {
+    font: 51px/38px "HelveticaNeue77BoldCondensed";
+    position: relative;
+    top: 4px;
+    left: -5px;
+}
+
+.discount-message .value span sup {
+    font-size: 20px;
+    bottom: 1em;
+}
+.countdown-timer {
+  background-color: darkgrey;
+  bottom: 0;
+  height: 92px;
+  left: 62%;
+  margin-left: 3px;
+  padding: 6px 0 0 37px;
+  position: relative;
+  top: -184px;
+  width: 23%;
+}
+/*
+.countdown-timer {
+  position: absolute;
+  background-color: darkgrey;
+  width: 300px;
+  height: 92px;
+  left: 62%;
+  padding: 6px 0 0 37px;
+  bottom: 0;
+}
+*/
+#countdown {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#countdown li {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    text-align: center;
+    color: #fff;
+    width: 47px;
+}
+
+#countdown li .set {
+    font: 32px/34px "HelveticaNeue35Thin";
+    color: #fff;
+}
+
+#countdown li .timeunit {
+    font: 10px/12px "HelveticaNeue67MdCn";
+    text-transform: uppercase;
+}
+
+#countdown li.seperator {
+    font: 22px/34px "HelveticaNeue35Thin";
+    color: #fff;
+    width: 5px;
+}
+
+#countdownPopup {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font: 20px/32px "HelveticaNeue67MdCn";
+    color: #fff;
+    text-align: center;
+    background-color: #3a3835;
+    background-image: -moz-linear-gradient(top, #6c635a, #3a3835);
+    background-image: -ms-linear-gradient(top, #6c635a, #3a3835);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6c635a), to(#3a3835));
+    background-image: -webkit-linear-gradient(top, #6c635a, #3a3835);
+    background-image: -o-linear-gradient(top, #6c635a, #3a3835);
+    background-image: linear-gradient(top, #6c635a, #3a3835);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FF6C635A', endColorstr='#FF3A3835');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF6C635A', endColorstr='#FF3A3835')";
+}
+
+#countdownPopup.countdownRed {
+    background-color: #c02013;
+    background-image: -moz-linear-gradient(top, #d62415, #c02013);
+    background-image: -ms-linear-gradient(top, #d62415, #c02013);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d62415), to(#c02013));
+    background-image: -webkit-linear-gradient(top, #d62415, #c02013);
+    background-image: -o-linear-gradient(top, #d62415, #c02013);
+    background-image: linear-gradient(top, #d62415, #c02013);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFD62415', endColorstr='#FFC02013');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD62415', endColorstr='#FFC02013')";
+}
+
+#countdownPopup span {
+    font-size: 14px;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+ 
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
